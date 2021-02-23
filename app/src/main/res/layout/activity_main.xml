@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="bottom|center|center_vertical">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="1000"
+		android:layout_height="550dp"
+		android:background="#FFFFE9E9"
+		android:hint="输入框"
+		android:gravity="bottom|left"
+		android:id="@+id/edittext"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center|center_horizontal">
+
+		<Switch
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:scaleX="2"
+			android:scaleY="2"
+			android:id="@+id/bl_switch"/>
+
+		<ToggleButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/togglebutton"
+			android:layout_marginLeft="40dp"
+			android:textOff="蓝牙关"
+			android:textOn="蓝牙开"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="#00ffffff"
+		android:layout_width="match_parent"
+		android:layout_height="20dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/bl_adress"
+		android:paddingBottom="30dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:id="@+id/textview"/>
+
+	<View
+		android:background="#00FFFFFF"
+		android:layout_width="match_parent"
+		android:layout_height="30dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+         <item name="android:windowIsTranslucent">true</item>
+	</style>
+	
+	 <style name="ActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+     </style>
+</resources>
